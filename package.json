@@ -2,7 +2,7 @@
     "name": "blueberry-dark-theme",
     "displayName": "Blueberry dark theme",
     "description": "Blueberry Dark Theme for Visual Studio Code",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "publisher": "peymanslh",
     "engines": {
         "vscode": "^1.13.0"

@@ -1,5 +1,5 @@
 # Blueberry Dark Theme
-Based on [Material theme](https://marketplace.visualstudio.com/items?itemName=ms-vscode.Theme-MaterialKit) and [DuoTone Syntax](https://github.com/simurai/duotone-syntax) With a little change.
+Based on [DuoTone Syntax](https://github.com/simurai/duotone-syntax) with a little change.
 
 ![Colors](https://raw.githubusercontent.com/peymanslh/vscode-blueberry-dark-theme/master/colors.jpg)
 
