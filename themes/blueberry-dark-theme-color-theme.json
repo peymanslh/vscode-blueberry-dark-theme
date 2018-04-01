@@ -48,7 +48,7 @@
 		"editorLineNumber.foreground": "#3a3f58",
 		"editorBracketMatch.border": "#42675A",
 		"tab.inactiveBackground": "#1d212f",
-		"tab.border": "#1d212f",
+		"tab.border": "#191d28",
 		"tab.activeForeground": "#a6accd",
 		"tab.activeBackground": "#242938",
 		"tab.inactiveForeground": "#676e95",
@@ -70,7 +70,7 @@
 		"sideBarSectionHeader.background": "#1d212f",
 		"titleBar.activeForeground": "#676e95",
 		"titleBar.inactiveForeground": "#676e95",
-		"titleBar.activeBackground": "#1d212f",
+		"titleBar.activeBackground": "#191d28",
 		"titleBar.inactiveBackground": "#1d212f",
 		"notification.foreground": "#e4f0fb",
 		"notification.background": "#242938",
@@ -103,8 +103,7 @@
 		"terminal.ansiBrightMagenta": "#c792ea",
 		"terminal.ansiBrightCyan": "#89ddff",
 		"terminal.ansiBrightWhite": "#ffffff",
-		"gitlens.trailingLineForegroundColor": "#506477",
-		"gitlens.lineHighlightOverviewRulerColor": "#ff0000"
+		"gitlens.trailingLineForegroundColor": "#506477"
 	},
 	"tokenColors": [
 		{
@@ -292,7 +291,7 @@
 			],
 			"settings": {
 				"fontStyle": "normal",
-				"foreground": "#27E8A7"
+				"foreground": "#53beb2"
 			}
 		},
 		{
