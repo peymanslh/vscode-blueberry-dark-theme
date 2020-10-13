@@ -72,8 +72,8 @@
 		"titleBar.inactiveForeground": "#676e95",
 		"titleBar.activeBackground": "#191d28",
 		"titleBar.inactiveBackground": "#1d212f",
-		"notification.foreground": "#e4f0fb",
-		"notification.background": "#242938",
+		"notifications.background": "#242938",
+		"notifications.foreground": "#e4f0fb",
 		"peekViewTitle.background": "#a6accd05",
 		"peekViewTitleDescription.foreground": "#a6accd60",
 		"peekView.border": "#00000030",
@@ -108,8 +108,7 @@
 	"tokenColors": [
 		{
 			"settings": {
-				"foreground": "#a6accdff",
-				"background": "#242938ff"
+				"foreground": "#a6accdff"
 			}
 		},
 		{
@@ -290,7 +289,6 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"fontStyle": "normal",
 				"foreground": "#53beb2"
 			}
 		},
@@ -401,7 +399,6 @@
 				"entity.other.attribute-name.class"
 			],
 			"settings": {
-				"fontStyle": "normal",
 				"foreground": "#32AE85"
 			}
 		},
@@ -411,7 +408,6 @@
 				"source.sass keyword.control"
 			],
 			"settings": {
-				"fontStyle": "normal",
 				"foreground": "#42675A"
 			}
 		},
@@ -602,15 +598,6 @@
 			}
 		},
 		{
-			"name": "Markdown - Line Break",
-			"scope": [
-				"text.html.markdown meta.dummy.line-break"
-			],
-			"settings": {
-				"foreground": ""
-			}
-		},
-		{
 			"name": "Markdown - Heading",
 			"scope": [
 				"markdown.heading",
@@ -673,8 +660,7 @@
 				"markup.strike"
 			],
 			"settings": {
-				"fontStyle": "strike",
-				"foreground": ""
+				"fontStyle": "italic",
 			}
 		},
 		{
@@ -683,7 +669,6 @@
 				"markup.quote punctuation.definition.blockquote.markdown"
 			],
 			"settings": {
-				"background": "#27E8A7",
 				"foreground": "#27E8A7"
 			}
 		},
@@ -694,7 +679,6 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": ""
 			}
 		},
 		{
@@ -778,7 +762,6 @@
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"background": "#50647750",
 				"foreground": "#7390aa"
 			}
 		},
@@ -813,6 +796,129 @@
 			"scope": "token.debug-token",
 			"settings": {
 				"foreground": "#b267e6"
+			}
+		},
+		{
+			"name": "[MARKDOWN] - Color for Heading Name Section",
+			"scope": [
+				"entity.name.section.markdown",
+				"markup.heading.setext.1.markdown",
+				"markup.heading.setext.2.markdown"
+			],
+			"settings": {
+				"foreground": "#42675A",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "[MARKDOWN] - Color for Paragraph",
+			"scope": "meta.paragraph.markdown",
+			"settings": {
+				"foreground": "#e4f0fb"
+			}
+		},
+		{
+			"name": "[MARKDOWN] - Comment Punctuation",
+			"scope": [
+				"punctuation.definition.from-file.diff",
+				"meta.diff.header.from-file"
+			],
+			"settings": {
+				"foreground": "#506477"
+			}
+		},
+		{
+			"name": "[MARKDOWN] - Color for Text inside inline code block `code`",
+			"scope": "markup.inline.raw.string.markdown",
+			"settings": {
+				"foreground": "#7390aa"
+			}
+		},
+		{
+			"name": "[MARKDOWN] - Color for Separator",
+			"scope": "meta.separator.markdown",
+			"settings": {
+				"foreground": "#df4576"
+			}
+		},
+		{
+			"name": "[MARKDOWN] - Color for Emphasis Bold",
+			"scope": "markup.bold.markdown",
+			"settings": {
+				"fontStyle": "bold",
+			}
+		},
+		{
+			"name": "[MARKDOWN] - Color for Emphasis Italic",
+			"scope": "markup.italic.markdown",
+			"settings": {
+				"fontStyle": "italic",
+			}
+		},
+		{
+			"name": "[MARKDOWN] - Color for Lists",
+			"scope": [
+				"beginning.punctuation.definition.list.markdown",
+				"punctuation.definition.list.begin.markdown",
+				"markup.list.unnumbered.markdown",
+			],
+			"settings": {
+				"foreground": "#add7ff"
+			}
+		},
+		{
+			"name": "[MARKDOWN] - Link/Image title string",
+			"scope": [
+				"string.other.link.description.title.markdown punctuation.definition.string.markdown",
+				"meta.link.inline.markdown string.other.link.description.title.markdown",
+				"string.other.link.description.title.markdown punctuation.definition.string.begin.markdown",
+				"string.other.link.description.title.markdown punctuation.definition.string.end.markdown",
+				"meta.image.inline.markdown string.other.link.description.title.markdown"
+			],
+			"settings": {
+				"foreground": "#df4576",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "[MARKDOWN] - Color for Link Title",
+			"scope": [
+				"meta.link.inline.markdown string.other.link.title.markdown","meta.link.reference.markdown string.other.link.title.markdown",
+				"meta.link.reference.def.markdown markup.underline.link.markdown"
+			],
+			"settings": {
+				"foreground": "#27E8A7",
+				 "fontStyle": "underline"
+			}
+		},
+		{
+			"name": "[MARKDOWN] - Color for Link/Image Title",
+			"scope": [
+				"markup.underline.link.markdown",
+				"string.other.link.description.title.markdown"
+			],
+			"settings": {
+				"foreground": "#27E8A7"
+			}
+		},
+		{
+			"name": "[MARKDOWN] - Color for Inline Code",
+			"scope": ["fenced_code.block.language", "markup.inline.raw.markdown"],
+			"settings": {
+				"foreground": "#add7ff"
+			}
+		},
+		{
+			"name": "[MARKDOWN] - Color for Punctuation — Heading, `Code` and fenced ```code blocks```, **Bold**",
+			"scope": [
+				"punctuation.definition.markdown",
+				"punctuation.definition.raw.markdown",
+				"punctuation.definition.heading.markdown",
+				"punctuation.definition.bold.markdown",
+				"punctuation.definition.italic.markdown"
+			],
+			"settings": {
+				"foreground": "#add7ff"
 			}
 		}
 	]
