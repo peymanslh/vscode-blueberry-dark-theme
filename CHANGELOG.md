@@ -1,7 +1,7 @@
 # Change Log
 
 ## v1.1.0
-- Improve Mark Down file syntax hilightning 
+- Improve MarkDown file syntax highlighting
 
 ## v1.0.0
 - Edit sidebar, status bar and tab bar color
