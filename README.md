@@ -12,3 +12,13 @@ ext install blueberry-dark-theme
 ![Screen Shot](https://raw.githubusercontent.com/peymanslh/vscode-blueberry-dark-theme/master/screenshot.png)
 
 > The font in the screenshot is [Operator Mono](https://www.typography.com/blog/introducing-operator) .
+
+### Extension 
+
+![Colors](ocean.png)
+
+### Screen Shot
+![Screen Shot](codex0.png)
+
+> The font in the screenshot is [Fira Code](https://github.com/tonsky/FiraCode) .
+

@@ -17,6 +17,11 @@
                 "label": "Blueberry dark theme",
                 "uiTheme": "vs-dark",
                 "path": "./themes/blueberry-dark-theme-color-theme.json"
+            },
+            {
+                "label": "Blueberry Sci fi Ocean",
+                "uiTheme": "vs-dark",
+                "path": "./themes/blueberry-dark-theme-color-theme-ocean.json"
             }
         ]
     },
