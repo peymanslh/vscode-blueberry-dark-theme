@@ -1,5 +1,8 @@
 # Change Log
 
+## v1.1.1
+- Update panel border color
+
 ## v1.1.0
 - Improve MarkDown file syntax highlighting
 
