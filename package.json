@@ -26,5 +26,11 @@
     },
     "homepage": "https://github.com/peymanslh/vscode-blueberry-dark-theme#readme",
     "license": "MIT",
-    "author": "Peyman Salehi <peymanslh@pm.me>"
+    "author": "Peyman Salehi <slh.peyman@gmail.com>",
+    "scripts": {
+        "deploy": "vsce publish"
+    },
+    "devDependencies": {
+        "@vscode/vsce": "^2.18.0"
+    }
 }
